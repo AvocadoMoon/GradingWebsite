@@ -1,0 +1,71 @@
+{
+    "IP" : "",
+    "labNumber": "6",
+    "labDescription": "Cross-Site Web Attacks",
+    "questions": {
+        "Q1": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "A",
+                "descriptionOfQuestion": "Please put the LOGIN_INFO cookie of benign user when you login."
+            },
+            {
+                "inputType": "empty",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "B",
+                "descriptionOfQuestion": "Access the page submit.edu/Lab6Q1B/<IP>, where <IP> is your VM's IP. This will test if your website properly set its cookies."
+            }
+        ],
+        "Q2": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Show the current TA that accessing your website at page 'Q2' will transfer money from a users account. "
+            }
+        ],
+        "Q3": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Please put the cookie value from the XSS alert."
+            }
+        ],
+        "Q4": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Please put the cookie found from the 'Q4' page that has a cookie value."
+            }
+        ],
+        "Q5": [
+            {
+                "inputType": "empty",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Show the TA that your website defaces Husky Banking."
+            }
+        ]
+    }
+}

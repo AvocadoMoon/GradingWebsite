@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<title>GH</title>
+	<link rel="stylesheet" href="/static/gradingHub.css">
+</head>
+
+
+
+<body>
+    <div id="whole-screen-container">
+	<div id="grid-container">
+        <div id="grid-row">
+        <div id="Lab_0" class="buttons" onclick="urlRedirct(0)" role="button">Lab 0: Do Stuff</div> 
+        <div id="Lab_1" class="buttons" onclick="urlRedirct(1)" role="button">Lab 1: Do Stuff</div>
+        <div id="Lab_2" class="buttons" onclick="urlRedirct(2)" role="button">Lab 2: Do Stuff</div>
+        <div id="Lab_3" class="buttons" onclick="urlRedirct(3)" role="button">Lab 3: Do Stuff</div>
+        <div id="Lab_4" class="buttons" onclick="urlRedirct(4)" role="button">Lab 4: Do Stuff</div>
+        <div id="Lab_5" class="buttons" onclick="urlRedirct(5)" role="button">Lab 5: Do Stuff</div>
+        <div id="Lab_6" class="buttons" onclick="urlRedirct(6)" role="button">Lab 6: Do Stuff</div>
+        </div>
+    </div>
+    </div>
+
+
+    <form id="form" method="post"> 
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <div id="buttonHolder"> {{ hubLogic.logoutButton() }}  </div>
+    </form>
+
+    <script>
+        function urlRedirct(labNumber){
+            window.location.assign("/Lab-" + labNumber)
+        }
+    </script>
+
+    
+
+</body>
+</html>

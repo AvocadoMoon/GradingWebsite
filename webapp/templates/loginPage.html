@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<title>AGL</title>
+	<link rel="stylesheet" href="/static/login.css">
+</head>
+
+
+
+<body>
+	<form id="mainHandler" method="post">
+	  	<h1 id="loginHeader">Automated Grading Login</h1>
+      	<p id="slogan"></p>
+	  
+	  	<input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+		{% if alert == "wrongInput" %}
+			<script>alert("Wrong username or password.");</script>
+		{% elif alert == "toLong" %}
+			<script>alert("NetID or password is to long or short.");</script>
+		{% elif alert == "notEqual" %} 
+			<script>alert("These two passwords are not the same.");</script>
+		{% elif alert == "Account already exits" %}
+			<script>alert("An account already exists.");</script>
+		{% elif alert == "No netID" %} 
+			<script>alert("There is no such netID")</script>
+		{% endif %} 
+
+		<!-- Input objects being called through the login class that is passed through -->
+		<p id="userInput"> {{ login.username.label }}: {{ login.username(size=32) }} </p>
+
+		<p id="passInput"> {{ login.password.label }}: {{ login.password(size=32) }} </p>
+
+		{% if createAccount %}
+			<p id="confirmInput"> {{ login.confirmPassword.label }}: {{ login.confirmPassword(size=32) }}</p>
+
+			<p>{{ login.returnToSignIn() }}</p>
+		
+		{% else %}
+
+		<p id="signIn">{{ login.submit() }}</p>
+
+		{% endif %}
+
+		<p>{{ login.createAccount() }}</p>
+
+	</form>
+</body>
+</html>

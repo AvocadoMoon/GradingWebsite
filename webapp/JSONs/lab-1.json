@@ -1,0 +1,106 @@
+{
+    "IP" : "",
+    "labNumber": "1",
+    "labDescription": "Password Cracking and Crypto Hash Functions",
+    "questions": {
+        "Q1": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Adam's password."
+            }
+        ],
+        "Q2": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "A gang member and their password, submitted in the format of: 'Username,Password'."
+            }
+        ],
+        "Q3": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "A gang member and their password exposed only in this question, submitted in the format of: 'Username,Password'."
+            }
+        ],
+        "Q4": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "A gang member and their password exposed only in this question, submitted in the format of: 'Username,Password'."
+            }
+        ],
+        "Q5": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "A gang member and their password exposed only in this question, submitted in the format of: 'Username,Password'."
+            }
+        ],
+        "Q6" : [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "A gang member and their password exposed only in this question, submitted in the format of: 'Username,Password'."
+            }
+        ],
+        "Q7" : [
+            {
+                "inputType": "empty",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Submit in HuskyCT screenshots showing your registration and results."
+            }
+        ],
+        "Q8" : [
+            {
+                "inputType": "empty",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Submit in HuskyCT shor description of the two worst exposures you could identify."
+            }
+        ],
+        "Q9" : [
+            {
+                "inputType": "empty",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Submit in HuskyCT examples of websites that use 2FA and ones that don't."
+            }
+        ]
+    }
+}

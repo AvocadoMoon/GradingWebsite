@@ -1,0 +1,10 @@
+{
+    "Q1":[5,"Automatically validated"],
+    "Q2":[5,"Automatically validated"],
+    "Q3A":[7.5,"Incorrect file name -7.5."],
+    "Q3B":[7.5,"Incorrect file size -7.5."],
+    "Q4":[10,"Wrong password -10. Try again."],
+    "Q5":[10,"Wrong string -10. Try again."],
+    "Q6":[10,"Wrong string -10."],
+    "Q7":[10,"Wrong string -10."]
+}

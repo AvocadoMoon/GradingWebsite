@@ -1,0 +1,93 @@
+{
+    "IP" : "172.16.50.0",
+    "labNumber": "0",
+    "LabDescription": "This is the first lab!",
+    "questions": {
+        "Q1": [
+            {
+                "inputType": "empty",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "No submision required, automatically validated."
+            }
+        ],
+        "Q2": [
+            {
+                "inputType": "empty",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "No submision required, automatically validated."
+            }
+        ],
+        "Q3": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "Q3.23384",
+                "feedback": "",
+                "points": "",
+                "part": "A",
+                "descriptionOfQuestion": "Name of file in Lab0 beginning with the letters 'Q3'"
+            },
+            {
+                "inputType": "int",
+                "input" : "",
+                "studentSolution": "640",
+                "feedback": "",
+                "points": "",
+                "part": "B",
+                "descriptionOfQuestion": "The size of previous questions file."
+            }
+        ],
+        "Q4": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "P94077",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "IDK what it is asking for?"
+            }
+        ],
+        "Q5": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "V55027",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "The contents within the file you changed permisions."
+            }
+        ],
+        "Q6" : [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "The string you found in file Q6."
+            }
+        ],
+        "Q7" : [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "S653745792740416139272",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "The string outputted by the python script. String begins with letter S followed by some digits."
+            }
+        ]
+    }
+}

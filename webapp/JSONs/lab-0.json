@@ -1,0 +1,93 @@
+{
+    "IP" : "",
+    "labNumber": "0",
+    "labDescription": "Basic Tools and Access Control",
+    "questions": {
+        "Q1": [
+            {
+                "inputType": "autoValidate",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "No submision required, automatically validated."
+            }
+        ],
+        "Q2": [
+            {
+                "inputType": "autoValidate",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "No submision required, automatically validated."
+            }
+        ],
+        "Q3": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "A",
+                "descriptionOfQuestion": "Name of the file in Lab0 beginning with the letters 'Q3'."
+            },
+            {
+                "inputType": "int",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "B",
+                "descriptionOfQuestion": "The size of the previous questions file (in bytes)."
+            }
+        ],
+        "Q4": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "The password for user-id U44444 (starting with and including the 'P')."
+            }
+        ],
+        "Q5": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "The contents of file 'Q5'."
+            }
+        ],
+        "Q6" : [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "The string found in the format U6xxxxxY."
+            }
+        ],
+        "Q7" : [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "The string outputted by the python script, 'Q7.py'. String begins with the letter S followed by some digits."
+            }
+        ]
+    }
+}

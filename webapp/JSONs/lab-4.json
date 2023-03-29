@@ -1,0 +1,109 @@
+{
+    "IP" : "",
+    "labNumber": "4",
+    "labDescription": "Web progamming and phishing attacks.",
+    "questions": {
+        "Q1": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "A",
+                "descriptionOfQuestion": "Please put the name of the account"
+            },
+            {
+                "inputType": "int",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "B",
+                "descriptionOfQuestion": "Please put the balance of your account"
+            }
+        ],
+        "Q2": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Please submit the password found for the victim acount."
+            }
+        ],
+        "Q3": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Display your website that displays your teams names and number, and submit the approvial code given by a TA."
+            }
+        ],
+        "Q4": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Display your website that immitates the Husky Banking site, and submit the approvial code given by a TA."
+            }
+        ],
+        "Q5": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "A",
+                "descriptionOfQuestion": "Display your website that mimics the custom Husky Banking site, and submit the approvial code given by a TA."
+            },
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "B",
+                "descriptionOfQuestion": "Please submit the background images location."
+            },
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "C",
+                "descriptionOfQuestion": "Please submit the input box images location."
+            },
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "D",
+                "descriptionOfQuestion": "Please submit the websites icon image location."
+            }
+        ],
+        "Q6": [
+            {
+                "inputType": "string",
+                "input" : "",
+                "studentSolution": "",
+                "feedback": "",
+                "points": "",
+                "part": "",
+                "descriptionOfQuestion": "Display your website that mimics the Husky Banking site with additional input capturing, and submit the approvial code given by a TA. THIS IS EXTRA CREDIT"
+            }
+        ]
+    }
+}

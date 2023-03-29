@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <title>Lab {{ labNumber }}</title>
+        <link rel="stylesheet" href="/static/labPage.css">
+    </head>
+
+<body>
+
+    <h2 id="LabTitle" class="metaInfo">Lab {{ labNumber }}</h2>
+    <p id="LabDescription" class="metaInfo">{{ labDescription }}</p>
+
+    <form id="FormQuestions" method="post" enctype = "multipart/form-data">
+
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+        {% for question in questions.keys() %}
+            <div class="question-padding">
+            <div class="question-border">
+                {% for part in questions[question] %} 
+                    {% if part["inputType"] not in ["empty", "autoValidate"] %}
+                        <p class="explination text"> {{ part["input"].label }} : {{ part["descriptionOfQuestion"] }}</p>
+                        
+                        {% if part["feedback"] != "" %}
+                            <div class="response text">
+                                <p class="score text">Score is: {{part["points"]}}</p>
+                                <p class="feedback text"> Feedback: {{part["feedback"]}}</p>
+                            </div>
+                        {% endif %}
+
+                        <p class="questionInput text"> {{ part["input"]() }} </p>
+                    {% else %} 
+                        <p class="questionInput text"> {{ part["input"] }}: {{part["descriptionOfQuestion"]}} </p>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            </div>
+        {% endfor %}
+
+
+        <p class="button" id="test"> {{ testButton() }} </p>
+        <p class="button" id="submit"> {{ submitButton() }} </p>
+    </form>
+
+</body>
+
+</html>
